@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url('netflixa.jpg');
+    background-position: right;
+
+}
+
+/* .netfor{
+    color:red;
+    font-size:55px;
+    font-family: sans-serif;
+    letter-spacing: -10px;
+    font-weight: 510;
+   } */
+
+
+
+ header{
+    display: flex;
+    margin-top:1rem;
+    justify-content:space-between;
+    padding-left:4rem;
+    padding-right: 4rem;
+ }
+
+ p{
+    color:red;
+    font-size: 64px;
+    font-weight: 600;
+    margin: 0%;
+
+}
+.sign-but{
+    background: red;
+    width:80px;
+    height:40px;
+    margin-top: 1rem;
+    font-size: 17px;
+    color:white;
+    border:red;
+    border-radius: 10%;
+  
+    
+}
+::placeholder{
+    color:white;
+    text-align: center;
+    opacity:53%;
+    font-size: 17px;
+}
+main{
+    text-align: center;
+    margin:8rem;
+}
+
+h1{
+    color:rgb(247, 243, 243);
+    font-size: 74px;
+}
+
+h2{
+    color:white;
+    font-weight: 200;
+    font-size: 34px;
+
+}
+
+h3{
+    color:white;
+    font-size: 24px;
+    
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+
+    }
+
+    nav{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        height:52px;
+        width:400px;
+        background:transparent;
+        color:white;
+        font-size: 16px;
+        border-color:rgb(226, 228, 215);
+        border-radius: 4%;
+    }
+
+    .getstart{
+        width:200px;
+        height:55px;
+        background:red;
+        font-size: 22px;
+        font-weight: 600;
+        color:white;
+        border-radius:6% ;
+    }
+
+    @media screen and (max-width: 450px) {
+        p{
+            font-size: 35px;
+        }
+        h1{
+           font-size: 35px;
+        width:377px}
+
+      
+         h2{
+            font-size: 25px;
+            width:377px
+         } 
+         h3{
+            font-size: 22px;
+            width:377px
+         } 
+         .sign-but{
+            width:80px;
+            height:30px;
+            margin-top:-0.052233rem;
+            font-size: 17px;
+          
+            
+        }
+        .getstart{
+            width:120px;
+            height:35px;
+            background:red;
+            font-size: 14px;
+            margin: 2rem 0;
+            
+        }
+        input{
+            height:32px;
+            width:250px;
+            position:relative;
+            right:3rem
+        }
+    }
